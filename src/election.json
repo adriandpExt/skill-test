@@ -1,0 +1,193 @@
+{
+  "election_year": 2022,
+  "president": {
+    "candidates": [
+      { "id": "cand001", "name": "Maria Santos", "party": "Progressive Party" },
+      {
+        "id": "cand002",
+        "name": "Juan Dela Cruz",
+        "party": "Conservative Party"
+      }
+    ],
+    "results": {
+      "provinces": [
+        {
+          "province_name": "Metro Manila",
+          "cities": [
+            {
+              "city_name": "Manila",
+              "results": {
+                "cand001": 345678,
+                "cand002": 567890
+              }
+            },
+            {
+              "city_name": "Quezon City",
+              "results": {
+                "cand001": 456789,
+                "cand002": 678901
+              }
+            }
+          ]
+        },
+        {
+          "province_name": "Cebu",
+          "cities": [
+            {
+              "city_name": "Cebu City",
+              "results": {
+                "cand001": 234567,
+                "cand002": 345678
+              }
+            },
+            {
+              "city_name": "Mandaue City",
+              "results": {
+                "cand001": 345678,
+                "cand002": 456789
+              }
+            }
+          ]
+        }
+      ],
+      "regions": [
+        {
+          "region_name": "National Capital Region",
+          "results": {
+            "cand001": 802457,
+            "cand002": 1246790
+          }
+        },
+        {
+          "region_name": "Central Visayas",
+          "results": {
+            "cand001": 580245,
+            "cand002": 802345
+          }
+        }
+      ],
+      "groups": [
+        {
+          "group_name": "Luzon",
+          "results": {
+            "cand001": 1456789,
+            "cand002": 2109876
+          }
+        },
+        {
+          "group_name": "Visayas",
+          "results": {
+            "cand001": 745678,
+            "cand002": 678901
+          }
+        },
+        {
+          "group_name": "Mindanao",
+          "results": {
+            "cand001": 987654,
+            "cand002": 543210
+          }
+        }
+      ],
+      "country": {
+        "results": {
+          "cand001": 3210987,
+          "cand002": 1234567
+        }
+      }
+    }
+  },
+  "vice_president": {
+    "candidates": [
+      { "id": "cand003", "name": "Luis Reyes", "party": "Progressive Party" },
+      { "id": "cand004", "name": "Ana Garcia", "party": "Conservative Party" }
+    ],
+    "results": {
+      "provinces": [
+        {
+          "province_name": "Metro Manila",
+          "cities": [
+            {
+              "city_name": "Manila",
+              "results": {
+                "cand003": 456789,
+                "cand004": 567890
+              }
+            },
+            {
+              "city_name": "Quezon City",
+              "results": {
+                "cand003": 567890,
+                "cand004": 678901
+              }
+            }
+          ]
+        },
+        {
+          "province_name": "Cebu",
+          "cities": [
+            {
+              "city_name": "Cebu City",
+              "results": {
+                "cand003": 345678,
+                "cand004": 456789
+              }
+            },
+            {
+              "city_name": "Mandaue City",
+              "results": {
+                "cand003": 456789,
+                "cand004": 567890
+              }
+            }
+          ]
+        }
+      ],
+      "regions": [
+        {
+          "region_name": "National Capital Region",
+          "results": {
+            "cand003": 789012,
+            "cand004": 890123
+          }
+        },
+        {
+          "region_name": "Central Visayas",
+          "results": {
+            "cand003": 456789,
+            "cand004": 567890
+          }
+        }
+      ],
+      "groups": [
+        {
+          "group_name": "Luzon",
+          "results": {
+            "cand003": 1456789,
+            "cand004": 2345678
+          }
+        },
+        {
+          "group_name": "Visayas",
+          "results": {
+            "cand003": 456789,
+            "cand004": 567890
+          }
+        },
+        {
+          "group_name": "Mindanao",
+          "results": {
+            "cand003": 678901,
+            "cand004": 789012
+          }
+        }
+      ],
+      "country": {
+        "results": {
+          "cand003": 3210987,
+          "cand004": 1234567
+        }
+      }
+    }
+  }
+}
